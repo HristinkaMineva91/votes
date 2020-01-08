@@ -6,8 +6,9 @@
         <title>Vote</title>
     </head>
     <body>
-        <ul id="votes">            
-        </ul>
+        <div>Yes Votes: <span id="yes">{{ votes["yes"] }}</span></div>
+        <div>No Votes: <span id="no">{{ votes["no"] }}</span></div>
+        <div>Maybe Votes: <span id="maybe">{{ votes["maybe"] }}</span></div>
         <hr>
         <button data-vote="yes">Yes</button>
         <button data-vote="no">No</button>
